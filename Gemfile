@@ -11,7 +11,9 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'carrierwave'
+# gem 'carrierwave'
+gem 'carrierwave_direct', :git => "git://github.com/dwilkie/carrierwave_direct.git"
+
 gem 'mini_magick', '3.5.0'
 gem "fog", "~> 1.3.1"
 
